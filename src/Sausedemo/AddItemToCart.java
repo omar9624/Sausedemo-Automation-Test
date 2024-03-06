@@ -53,6 +53,9 @@ public class AddItemToCart {
 		WebElement cartButton = driver.findElement(By.id("shopping_cart_container"));
 		cartButton.click();
 		
+		//Remove Second Item From Cart
+		
+		
 		
 		
 		
