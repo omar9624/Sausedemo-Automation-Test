@@ -1,6 +1,7 @@
 package Sausedemo;
 
 import java.util.List;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -53,11 +54,21 @@ public class AddItemToCart {
 		WebElement cartButton = driver.findElement(By.id("shopping_cart_container"));
 		cartButton.click();
 		
-		//Remove Second Item From Cart
+		//Remove Random Item From Cart And Back To Home Page
+		WebElement cartListContainer = driver.findElement(By.className("cart_list"));
+		List<WebElement> cartList = cartListContainer.findElements(By.className("btn"));
 		
+		System.out.println(cartList.size());
 		
+		Thread.sleep(1000);
 		
+		Random randomNumber = new Random();
+		cartList.get(randomNumber.nextInt(5)).click();
 		
+		Thread.sleep(1000);
+		
+		driver.navigate().back();
+			
 		
 	}
 

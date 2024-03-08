@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T01:41:05 EET" name="Default suite" finished-at="2024-03-07T01:41:16 EET" duration-ms="11288">
+  <suite started-at="2024-03-09T01:14:27 EET" name="Default suite" finished-at="2024-03-09T01:14:40 EET" duration-ms="13513">
     <groups>
     </groups>
-    <test started-at="2024-03-07T01:41:05 EET" name="Default test" finished-at="2024-03-07T01:41:16 EET" duration-ms="11288">
+    <test started-at="2024-03-09T01:14:27 EET" name="Default test" finished-at="2024-03-09T01:14:40 EET" duration-ms="13513">
       <class name="Sausedemo.AddItemToCart">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Sausedemo.AddItemToCart@70a36a66]" started-at="2024-03-07T01:41:05 EET" name="beforeTest" finished-at="2024-03-07T01:41:07 EET" duration-ms="2147" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Sausedemo.AddItemToCart@35a9782c]" started-at="2024-03-09T01:14:27 EET" name="beforeTest" finished-at="2024-03-09T01:14:28 EET" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="addToCart()[pri:0, instance:Sausedemo.AddItemToCart@70a36a66]" started-at="2024-03-07T01:41:07 EET" name="addToCart" finished-at="2024-03-07T01:41:16 EET" duration-ms="9089" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:Sausedemo.AddItemToCart@35a9782c]" started-at="2024-03-09T01:14:28 EET" name="addToCart" finished-at="2024-03-09T01:14:40 EET" duration-ms="12258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
