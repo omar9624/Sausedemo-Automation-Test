@@ -63,7 +63,7 @@ public class AddItemToCart {
 		Thread.sleep(1000);
 		
 		Random randomNumber = new Random();
-		cartList.get(randomNumber.nextInt(5)).click();
+		cartList.get(randomNumber.nextInt(cartList.size()-1)).click();
 		
 		Thread.sleep(1000);
 		
